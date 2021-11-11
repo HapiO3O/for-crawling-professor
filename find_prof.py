@@ -7,7 +7,7 @@ import re
 prof_url=[]
 
 name = re.compile("\w* \w* *\w*")
-good = re.compile("專長 *\/ *(\w*\/*\w*、*)*\w*")
+good = re.compile("專長 *\/ *(\w*\/*\w*、*)*(\w*\/*\w*,* *)*(\w*\/*\w*\(*\w*\)*，* *)*\w*")
 mail = re.compile("E(-)*mail: *\w*.*\w*@\w*.\w*.*.\w*.*.\w{2}")
 
 
